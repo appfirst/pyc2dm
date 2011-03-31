@@ -36,6 +36,8 @@ a more complete example. You can see all the details by looking through the code
     except C2DMException as e:
         logger.error("Something else bad happened: %s", e)
 
+Testing
+========
 
 To run tests, put your gmail account/password and a valid device registration id
 into the test.py file, then run

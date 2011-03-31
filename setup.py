@@ -6,7 +6,7 @@ import pyc2dm
 
 
 setup(name='pyc2dm',
-    version='0.1',
+    version='0.9',
     author='Andrew Carman',
     author_email='andrew@appfirst.com',
     url='https://github.com/appfirst/pyc2dm',
@@ -18,7 +18,7 @@ setup(name='pyc2dm',
     provides=['pyc2dm'],
     keywords='android c2dm push-notification application',
     license='General Public License v3',
-    classifiers=['Development Status :: 2 - Pre-Alpha',
+    classifiers=['Development Status :: 3 - Alpha',
                'Intended Audience :: Developers',
                'Natural Language :: English',
                'Operating System :: OS Independent',
