@@ -18,7 +18,7 @@ a more complete example. You can see all the details by looking through the code
     from pyc2dm import *
     ## Setup logging ##
     
-    c = C2DM(username="YOUR USERNAME", password="YOUR PASSWORD", source="COMPANY.APP.VERSION")
+    c = C2DM(email="YOUR USERNAME", password="YOUR PASSWORD", source="COMPANY.APP.VERSION")
     try:
         token = c.get_client_token()
     except C2DMException as e:
@@ -28,7 +28,7 @@ a more complete example. You can see all the details by looking through the code
     # Then in the future use C2DM(client_token="YOUR TOKEN", source="COMPANY.APP.VERSION")
     
     try:
-        c.send_message("REGISTRATION_ID", "COLLAPSE KEY", {"optional":"data"})
+        c.send_notification("REGISTRATION_ID", "COLLAPSE KEY", {"optional":"data"})
     except C2DMInvalidDeviceException as e:
         remove_device("REGISTRATION_ID") ## Remove this device from your list
     except C2DMException as e:
