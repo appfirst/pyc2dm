@@ -1,9 +1,7 @@
 Installation
 ============
 
-The project is available on pypi, so simply use
-    easy_install pyc2dm
-Or download the code and run
+Download the code and run
     python setup.py install
 
 Usage
@@ -11,7 +9,7 @@ Usage
 Basic usage
     from pyc2dm import C2DM
     
-    c = C2DM(username="YOUR USERNAME", password="YOUR PASSWORD", source="COMPANY.APP.VERSION")
+    c = C2DM(email="YOUR USERNAME", password="YOUR PASSWORD", source="COMPANY.APP.VERSION")
     c.send_message("REGISTRATION_ID", "COLLAPSE KEY", {"optional":"data", "whatever": "you want"})
 
 This can raise a number of exceptions, some are handled automatically

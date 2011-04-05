@@ -29,5 +29,4 @@ setup(name='pyc2dm',
                'Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries',
                'Topic :: Software Development :: Libraries :: Python Modules',
               ],
-    test_suite = "test.test",
     )
